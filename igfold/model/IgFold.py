@@ -1,3 +1,6 @@
+
+# 这段代码是用Python编写的，并且使用了PyTorch框架和PyTorch Lightning这一高级封装库。
+#这是一个深度学习模型的代码，主要用于蛋白质结构预测，特别是针对抗体的结构预测。这里的模型被封装成了一个名为IgFold的类，该类继承自pl.LightningModule，这是PyTorch Lightning中用于组织和训练模型的基础类。
 import os
 from einops import rearrange, repeat
 import numpy as np
